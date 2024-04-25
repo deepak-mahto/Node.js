@@ -4,5 +4,6 @@ const posts = [
 ];
 
 const getPost = () => posts;
+export const getPostLength = () => posts.length;
 
-export default getPost ;
+export default getPost;

@@ -1,5 +1,6 @@
-import getPost from "./postController.js";
+import getPost, { getPostLength } from "./postController.js";
 console.log(getPost());
+console.log(getPostLength());
 
 // const { generateRandomNumber, celciusToFahrenheit } = require("./utils");
 
