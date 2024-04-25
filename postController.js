@@ -5,4 +5,4 @@ const posts = [
 
 const getPost = () => posts;
 
-export { getPost };
+export default getPost ;
