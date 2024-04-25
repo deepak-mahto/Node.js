@@ -3,4 +3,6 @@ const posts = [
   { id: 2, post: "Post 2" },
 ];
 
-export const getPost = () => posts;
+const getPost = () => posts;
+
+export { getPost };
